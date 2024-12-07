@@ -1,0 +1,60 @@
+.servicios-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .buscador {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .buscador input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .btn-buscar {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-buscar:hover {
+    background-color: #0056b3;
+  }
+  
+  .servicios-lista {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .servicios-lista li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .servicios-lista li:hover {
+    background-color: #f0f0f0;
+  }
+  

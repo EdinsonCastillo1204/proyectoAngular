@@ -27,7 +27,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css","node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -90,12 +90,15 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css","node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f7572a3c-6265-416c-88d3-5c0e0ef77e5c"
   }
 }
